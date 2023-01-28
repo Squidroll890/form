@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register form</h1>
+    <form>
+         <label> First name: <input type="text" name="firstname" placeholder="Firstname" required></label>
+         <label> Last name: <input type="text" name="lastname" placeholder="Lastname" required></label><br> 
+
+         <label>male <input type="radio" name="gender" value="male"></label>
+         <label>female <input type="radio" name="gender" value="male"></label>
+         <label>others <input type="radio" name="gender" value="others"></label><br>
+
+         <label>Email: <input type="email" name="emailname" placeholder="your email" required></label>
+         <label> Password: <input type="password" name="password" placeholder="your password" pattern=".{5,10}" required title="please enter passwordof lenght 5 to 10"></label><br>
+
+         <label>Birthday: </label>
+         <select name="month" id="birthday">
+              <option>month</option>
+              <option> Jan</option>
+              <option> Feb</option>
+              <option> March</option>
+              <option> April</option>
+         </select>
+         <select name="day" id="birthday">
+            <option>Day</option>
+            <option> 1</option>
+            <option> 2</option>
+            <option> 3</option>
+            <option> 4</option>
+         </select>
+         <select name="year" id="birthday">
+            <option> year</option>
+            <option> 2002</option>
+            <option> 2001</option>
+         </select>
+         <br>
+         <label> I agree the term and condition <input type="checkbox" name="check"></label><br>
+         <input type="submit" value="submit">
+              
+         <a href="https://www.google.com" target="_blank">Go to Google </a>
+
+    </form>
+</body>
+</html>
